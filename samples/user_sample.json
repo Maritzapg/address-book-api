@@ -1,0 +1,19 @@
+{
+  "id": "486585db-75f2-467d-a825-b37777c96529",
+  "givenName": "Maritza",
+  "familyName": "Palacios",
+  "nickName": "Amigui",
+  "surName": "Garcia",
+  "emails": [
+    {
+      "label": "home",
+      "address": "homeemailaddress@gmail.com"
+    }
+  ],
+  "phones": [
+    {
+      "label": "cell",
+      "number": "5203125410"
+    }
+  ]
+}
