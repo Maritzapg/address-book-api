@@ -1,6 +1,6 @@
-# User and Score Data REST API
+# User and address book Data REST API
 
-This is a REST API to get and store user data. It runs on port 3000 by default but may be configured in the environment.
+This is a REST API to get and store user data. It runs on port 3001 by default but may be configured in the environment.
 
 The API is connected to an Atlas Cloud Cluster at `mongodb+srv://<username>:<password>@scoringapp.beqhsqp.mongodb.net/local_userchanger?retryWrites=true&w=majority&appName=AtlasApp
 `
@@ -86,7 +86,7 @@ The connection string is in the .env file with the user credentials. This was do
 	}
 ```
 
-## Insert a new User
+## Insert o create a User
 
 ### Request
 

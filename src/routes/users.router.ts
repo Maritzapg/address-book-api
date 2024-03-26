@@ -14,6 +14,11 @@ usersRouter.use(express.json())
 
 const collectionName = MONGO_COLLECTIONS.users
 
+/**
+ * Finds a user in the database
+ * @param _id User id
+ * @returns A user information
+ */
 const getUserById = async (_id: string = '') => {
   if (_id === '') {
     return new Error('user ID cannot be empty')
